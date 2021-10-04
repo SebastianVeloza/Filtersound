@@ -22,7 +22,7 @@ public class CalculoRegresion {
 
         for (int i = 0; i < datosY.length; i++) {
             Yprom = Yprom.add(datosY[i]);
-        },
+        }
 
         Yprom = Yprom.divide(new java.math.BigDecimal(datosY.length), 100, RoundingMode.HALF_UP);   
         
