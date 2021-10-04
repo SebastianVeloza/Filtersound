@@ -19,9 +19,11 @@ public class CalculoRegresion {
         BigDecimal st = new java.math.BigDecimal("0.0");
         BigDecimal resta;
         
+
         for (int i = 0; i < datosY.length; i++) {
             Yprom = Yprom.add(datosY[i]);
-        }
+        },
+
         Yprom = Yprom.divide(new java.math.BigDecimal(datosY.length), 100, RoundingMode.HALF_UP);   
         
         for (int i = 0; i < datosY.length; i++) {
