@@ -129,7 +129,7 @@ public class Principal {
         x1 = x[0];
 
         resta1 = y2.subtract(y1);
-        resta2 = x2.subtract(x1);
+        resta2 = x2.subtract(x1);s
 
         resultado = resta1.divide(resta2, 100, RoundingMode.HALF_UP);
 
